@@ -155,6 +155,10 @@ nav ul li a:hover {
         width: 100% !important ;
     }
 }
+
+
+
+
 .banner img{
     width: 40rem;
 }
@@ -213,7 +217,13 @@ nav ul li a:hover {
 .services p {
     margin-bottom: 2rem;
 }
+@media (max-width: 998px) {
+    .services__wrapper {
+   grid-template-columns: 1fr;
+    }
 
+
+    }
 .aboutme__wrapper {
     display: flex;
     align-items: center;
@@ -226,6 +236,11 @@ nav ul li a:hover {
     padding: 6rem 0;
 }
 
+@media (max-width: 998px) {
+    .aboutme__wrapper{
+    display: block;
+    }
+}
 .latestTrends {
     background-color: var(--black);
     padding: 6rem 0;
